@@ -64,7 +64,7 @@ Beta-lactamase can lyse beta-lactam rings that are however essential for the act
 with st.sidebar.header('Upload your CSV data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input file", type=['txt'])
     st.sidebar.markdown("""
-[Example input file](example.txt)
+[Example input file](https://raw.githubusercontent.com/shuyu99/BioactivityPredictionApp/330f135b16d21380832e0d441a92c21060d1f93c/example.txt)
 """)
 
 if st.sidebar.button('Predict'):
